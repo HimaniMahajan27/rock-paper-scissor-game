@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.heading
+{
+    background-color: rgb(6, 6, 74);
+    color: white;
+    height: 20px;
+}
+.choice{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 20px;
+    
+}
+img{
+   border-radius: 50%; 
+}
+#rock{
+    border-radius: 50%;
+    height: 80px;
+}
+#rock:hover{
+  opacity: 0.5;
+  border: 1px solid rgb(216, 215, 215);
+  cursor: pointer;
+}
+#paper{
+    border-radius: 50%;
+    height: 80px;
+}
+#paper:hover{
+    opacity: 0.5;
+    border: 1px solid rgb(216, 215, 215);
+    cursor: pointer;
+  }
+#scissor{
+    border-radius: 50%;
+    height: 80px;
+}
+#scissor:hover{
+    opacity: 0.5;
+    border: 1px solid rgb(216, 215, 215);
+    cursor: pointer;
+}
+.gameplayer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top:30px;
+    gap: 50px;
+}
+p{
+    font-size: larger;
+}
+#me{
+   font-size: small;
+}
+#comp{
+    font-size: small;
+}
+.pro{
+    margin: 20px;
+    background-color:  rgb(6, 6, 74);
+    border-radius:15px;
+    height: 20px;
+    display: inline-block;
+}
+.moves{
+    color: white;
+    object-fit: cover;
+   font-size: 12px;
+   padding: 3px;
+}
+.pro:hover{
+    opacity: 0.5;
+}
